@@ -1,0 +1,8 @@
+com\status\statusApi\models\Status.class
+com\status\statusApi\controller\StatusController.class
+com\status\statusApi\repository\StatusRepository.class
+com\status\statusApi\service\StatusService.class
+com\status\statusApi\models\Comment.class
+com\status\statusApi\request\GetStatusRequest.class
+com\status\statusApi\StatusApiApplication.class
+com\status\statusApi\request\GetCommentRequest.class
