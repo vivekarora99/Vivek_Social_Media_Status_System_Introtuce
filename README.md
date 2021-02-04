@@ -2,7 +2,7 @@
 
 Technologies: Java,Springboot,Mongo DB for database
 Softwares used: I used  IntelliJ IDEA for IDE and Postman for API testing.
-
+I have attached jar file named "statusApi-0.0.1-SNAPSHOT.jar" in this repository.
 
 API details:
 
@@ -45,3 +45,7 @@ endPoint="/status/comment" method = "POST"
   2. Open terminal and create a collection "status"
   3. Run project after doing mvn clean install on project location and running it
   4. Hit api's using postman
+
+Alternatively, I had also uploaded the zip file and jar file on google drive.
+Link for google drive : https://drive.google.com/drive/folders/1g8cW-x_LE0iZiSavEnNpjq-2C8DRR791?usp=sharing
+
