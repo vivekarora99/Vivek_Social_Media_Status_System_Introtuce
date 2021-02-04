@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Status</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<div th:switch="${status}">
+    <h2 th:case="null">No issues yet!</h2>
+    <div th:case="*">
+        <h2>Issues</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Description</th>
+                <th>Severity</th>
+                <th>Assignee</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="status : ${status}">
+                <td th:text="${status.id}"></td>
+                <td th:text="${status.userName}"></td>
+                <td th:text="${status.text}"></td>
+                <td th:text="${status.path}"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>
